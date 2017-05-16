@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Buttons test</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/head.css"/>
+	
+	<style type="text/css">
+
+
+		.btn-sample { 
+  color: #ffffff; 
+  background-color: red; 
+  border-color: #130269; 
+} 
+ 
+.btn-sample:hover, 
+.btn-sample:focus, 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  color: #ffffff; 
+  background-color: #49247A; 
+  border-color: #130269; 
+} 
+ 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  background-image: none; 
+} 
+ 
+.btn-sample.disabled, 
+.btn-sample[disabled], 
+fieldset[disabled] .btn-sample, 
+.btn-sample.disabled:hover, 
+.btn-sample[disabled]:hover, 
+fieldset[disabled] .btn-sample:hover, 
+.btn-sample.disabled:focus, 
+.btn-sample[disabled]:focus, 
+fieldset[disabled] .btn-sample:focus, 
+.btn-sample.disabled:active, 
+.btn-sample[disabled]:active, 
+fieldset[disabled] .btn-sample:active, 
+.btn-sample.disabled.active, 
+.btn-sample[disabled].active, 
+fieldset[disabled] .btn-sample.active { 
+  background-color: #611BBD; 
+  border-color: #130269; 
+} 
+ 
+.btn-sample .badge { 
+  color: #611BBD; 
+  background-color: #ffffff; 
+}
+
+
+.btn-rangers { 
+  color: #ffffff; 
+  background-color: green; 
+  border-color: #5A6902; 
+} 
+ 
+.btn-rangers:hover, 
+.btn-rangers:focus, 
+.btn-rangers:active, 
+.btn-rangers.active, 
+.open .dropdown-toggle.btn-rangers { 
+  color: #ffffff; 
+  background-color: #1A0A30; 
+  border-color: #5A6902; 
+} 
+ 
+.btn-rangers:active, 
+.btn-rangers.active, 
+.open .dropdown-toggle.btn-rangers { 
+  background-image: none; 
+} 
+ 
+.btn-rangers.disabled, 
+.btn-rangers[disabled], 
+fieldset[disabled] .btn-rangers, 
+.btn-rangers.disabled:hover, 
+.btn-rangers[disabled]:hover, 
+fieldset[disabled] .btn-rangers:hover, 
+.btn-rangers.disabled:focus, 
+.btn-rangers[disabled]:focus, 
+fieldset[disabled] .btn-rangers:focus, 
+.btn-rangers.disabled:active, 
+.btn-rangers[disabled]:active, 
+fieldset[disabled] .btn-rangers:active, 
+.btn-rangers.disabled.active, 
+.btn-rangers[disabled].active, 
+fieldset[disabled] .btn-rangers.active { 
+  background-color: #BD1B43; 
+  border-color: #5A6902; 
+} 
+ 
+.btn-rangers .badge { 
+  color: #BD1B43; 
+  background-color: #ffffff; 
+}
+
+.btn-celtic { 
+  color: #ffffff; 
+  background-color: #EDDB1A; 
+  border-color: #5A6902; 
+} 
+ 
+.btn-celtic:hover, 
+.btn-celtic:focus, 
+.btn-celtic:active, 
+.btn-celtic.active, 
+.open .dropdown-toggle.btn-celtic { 
+  color: #ffffff; 
+  background-color: #5E0EC7; 
+  border-color: #5A6902; 
+} 
+ 
+.btn-celtic:active, 
+.btn-celtic.active, 
+.open .dropdown-toggle.btn-celtic { 
+  background-image: none; 
+} 
+ 
+.btn-celtic.disabled, 
+.btn-celtic[disabled], 
+fieldset[disabled] .btn-celtic, 
+.btn-celtic.disabled:hover, 
+.btn-celtic[disabled]:hover, 
+fieldset[disabled] .btn-celtic:hover, 
+.btn-celtic.disabled:focus, 
+.btn-celtic[disabled]:focus, 
+fieldset[disabled] .btn-celtic:focus, 
+.btn-celtic.disabled:active, 
+.btn-celtic[disabled]:active, 
+fieldset[disabled] .btn-celtic:active, 
+.btn-celtic.disabled.active, 
+.btn-celtic[disabled].active, 
+fieldset[disabled] .btn-celtic.active { 
+  background-color: #EDDB1A; 
+  border-color: #5A6902; 
+} 
+ 
+.btn-celtic .badge { 
+  color: #EDDB1A; 
+  background-color: #ffffff; 
+}
+
+button {
+	font-size: 24px;
+}
+	</style>
+
+	</head>
+
+<body>
+
+<div class="container text-centre">
+
+	<div class="col-lg-6 col-lg-offset-3">
+
+		<nav class="navbar navbar-light bg-faded">
+  			<form class="form-inline">
+    			<button class="btn-lg btn-outline-success btn-sample" type="button">PRINTS</button>
+    			<button class="btn-lg btn-outline-success btn-rangers" type="button">LARGE FORMAT</button>
+    			<button class="btn-lg btn-outline-success btn-celtic" type="button">CARDS</button>
+    			<button class="btn-lg btn-outline-success btn-sample" type="button">Luck</button>
+
+  			</form>
+			<img id = "hammy" src="img/yellow BRAY for site 700px.jpg" alt="..." class="img-responsive center-block" />
+
+			<form class="form-inline">
+    			<button class="btn btn-outline-success btn-sample" id="changeColour" type="button" onclick="document.getElementById('hammy').src='img/grey green BRAY for site 700px.jpg'"></button>
+    			<button class="btn btn-outline-success btn-rangers" id= "changeColour2" type="button" onclick="document.getElementById('hammy').src='img/BRAY for site 700px.jpg'"></button>
+    			<button class="btn btn-outline-success btn-celtic" id= "changeColour3" type="button"onclick="document.getElementById('hammy').src='img/yellow BRAY for site 700px.jpg'"></button>
+    			
+
+  			</form>
+
+
+		</nav>
+
+
+</div>
+</div>
+</body>
+</html>
